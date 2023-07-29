@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin slider</title>
+
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex h-screen">
+      <div
+        id="navbar"
+        class="w-1/6 bg-gray-900 text-gray-100 transition-all duration-300 ease-in-out transform"
+      >
+        <div class="p-4">
+          <h1 class="text-2xl font-semibold mb-4"><a href="./deshboard.html">Admin</a></h1>
+          <nav>
+            <a
+              href="./slider.html"
+              class="block py-2 px-4 rounded hover:bg-gray-800"
+              data-page="slider"
+              >Slider</a
+            >
+            <a
+              href="./menu.html"
+              class="block py-2 px-4 rounded hover:bg-gray-800"
+              data-page="menus"
+              >Menus</a
+            >
+            <a
+              href="./gallery.html"
+              class="block py-2 px-4 rounded hover:bg-gray-800"
+              data-page="gallary"
+              >Gallary</a
+            >
+            <a
+              href="./contact.html"
+              class="block py-2 px-4 rounded hover:bg-gray-800"
+              data-page="contract"
+              >Contract</a
+            >
+            <a
+              href="./about.html"
+              class="block py-2 px-4 rounded hover:bg-gray-800"
+              data-page="about"
+              >About</a
+            >
+          </nav>
+        </div>
+      </div>
+
+      <div class="flex-1 p-8">
+        <div class="rounded-lg" id="content">
+          <div class="mb-8">
+            <h1 class="text-3xl font-semibold">
+              Welcome to the Admin Dashboard
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
